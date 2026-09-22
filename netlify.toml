@@ -1,3 +1,0 @@
-[build]
-  command = "python3 -c \"import zipfile; zipfile.ZipFile(\'site-bundle.zip\').extractall(\'.\')\""
-  publish = "."
