@@ -205,7 +205,7 @@
   radial-gradient(circle at 73% 44%,rgba(218,166,72,.19),transparent 27%),
   radial-gradient(circle at 15% 85%,rgba(133,77,35,.28),transparent 34%),
   linear-gradient(105deg,#160d08 0%,#25150c 44%,#130c08 100%)}
-.hero-backdrop:before{content:"";position:absolute;inset:0;background:url('../assets/hero.jpg') center/cover no-repeat;opacity:.18;mix-blend-mode:screen;filter:saturate(.8)}
+
 .hero-grain{position:absolute;inset:-50%;opacity:.055;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");animation:heroGrain .25s steps(2) infinite;pointer-events:none}
 .hero-glow{position:absolute;border-radius:50%;filter:blur(55px);pointer-events:none}
 .hero-glow-one{width:330px;height:330px;right:18%;top:12%;background:rgba(225,175,82,.12);animation:heroPulse 5s ease-in-out infinite}
@@ -216,12 +216,12 @@
 .hero-copy h1{font:500 clamp(60px,7.3vw,108px)/.82 'Cormorant Garamond',serif;letter-spacing:-.035em;margin:0;animation:heroRise .9s .18s both}
 .hero-copy h1 em{font-style:italic;font-weight:500;color:#f2d7a1}
 .hero-lede{max-width:420px;font:400 13px/1.75 Montserrat,sans-serif;color:rgba(255,248,236,.78);margin:27px 0 25px;animation:heroRise .9s .3s both}
-.hero-actions{display:flex;align-items:center;gap:23px;animation:heroRise .9s .4s both}
+.hero-actions{display:flex;align-items:center;gap:0;animation:heroRise .9s .4s both}
 .hero-primary{background:#e0ad4e;color:#21150c;border-color:#e0ad4e;padding:14px 21px}
 .hero-primary:hover{background:#f0c878;color:#21150c}
-.hero-secondary{font:600 10px/1 Montserrat,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#fff8ec;text-decoration:none;border-bottom:1px solid rgba(255,248,236,.5);padding:0 0 7px}
-.hero-secondary span{font-size:14px;margin-left:5px}
-.hero-secondary:hover{color:#e0ad4e;border-color:#e0ad4e}
+.hero-secondary{display:none}
+.hero-secondary span{display:none}
+
 .hero-signature{display:flex;align-items:center;gap:10px;margin-top:42px;font:600 8px Montserrat,sans-serif;letter-spacing:.32em;color:rgba(255,248,236,.42);animation:heroRise .9s .52s both}
 .hero-signature span{width:32px;height:1px;background:rgba(255,248,236,.28)}
 .hero-stage{height:min(690px,86vh);min-height:520px;position:relative;perspective:1100px;transform-style:preserve-3d}
