@@ -80,22 +80,6 @@ const PRODUCTS = [
     intention: 'I choose peace. I release what weighs on me. I am calm, grounded and at ease.',
     benefits: ['Emotional Balance', 'Inner Peace', 'Calmness', 'Deep Serenity']
   },
-  {
-    id: 'unapologetic-oil',
-    name: 'Unapologetic Main Character Oil',
-    category: 'spiritual-oils',
-    badge: 'Best Seller',
-    tagline: 'Bold magnetism, confidence, and stepping into your power',
-    priceText: 'R 220.00',
-    priceNumber: 220,
-    size: '10ml',
-    image: 'assets/products-motion/Unappologetic.png',
-    fallbackImage: 'assets/products-motion/Unappologetic.png',
-    description: 'A captivating blend inspired by Kim Kardashian, Heat, Downtown & Vanilla, infused with Sunstone, Carnelian, Tiger\'s Eye & Clear Quartz crystals for undeniable magnetism.',
-    crystals: ['Sunstone', 'Carnelian', 'Tiger\'s Eye', 'Clear Quartz'],
-    intention: 'I take up space. I trust my power. I am confident, magnetic and unapologetically me.',
-    benefits: ['Confidence', 'Personal Power', 'Bold Energy', 'Main Character Alignment']
-  },
   // Mists
   {
     id: 'dispel-cleansing-mist',
@@ -111,46 +95,7 @@ const PRODUCTS = [
     ingredients: ['Palo Santo', 'Frankincense', 'White Sage', 'Dragon\'s Blood', 'Evil Eye Scent'],
     benefits: ['Aura Cleansing', 'Energetic Cleanse', 'Space Clearing', 'Energetic Reset', 'Immediate Refresh']
   },
-  {
-    id: 'love-attraction-mist',
-    name: 'Love Attraction Mist',
-    category: 'mists',
-    badge: 'Popular',
-    tagline: 'Cultivate open-hearted harmony and magnetic warmth',
-    priceText: 'R 180.00',
-    priceNumber: 180,
-    image: 'assets/love-attraction-mist.jpg',
-    fallbackImage: 'assets/love-attraction-mist.jpg',
-    description: 'A delicate botanical mist formulated to uplift frequency, inspire affectionate feelings, and invite sweet romantic and self-love vibrations.',
-    benefits: ['Heart Harmony', 'Aura Softening', 'Loving Connections', 'Uplifting Scent']
-  },
   // Ritual Goods
-  {
-    id: 'manifestation-candle',
-    name: 'Manifestation Candle',
-    category: 'ritual-goods',
-    badge: 'Essential',
-    tagline: 'Hand-poured candle charged with intention and sacred herbs',
-    priceText: 'R 150.00',
-    priceNumber: 150,
-    image: 'assets/manifestation-candle.jpg',
-    fallbackImage: 'assets/manifestation-candle.jpg',
-    description: 'Created to anchor focus during prayers, intention-setting, or moon ceremonies. Burns cleanly with soothing natural aromatics.',
-    benefits: ['Focus Anchor', 'Ceremonial Atmosphere', 'Intentional Space']
-  },
-  {
-    id: 'protection-crystal-set',
-    name: 'Protection Crystal Set',
-    category: 'ritual-goods',
-    badge: 'Essential',
-    tagline: 'Curated cleansing & shielding tumbled gemstones',
-    priceText: 'R 250.00',
-    priceNumber: 250,
-    image: 'assets/protection-crystal-set.jpg',
-    fallbackImage: 'assets/protection-crystal-set.jpg',
-    description: 'A harmonious collection of grounding stones selected to purify electromagnetic and emotional environments, keeping personal boundaries impenetrable.',
-    benefits: ['Grounding Energy', 'Aura Shielding', 'Sacred Altar Placement']
-  }
 ];
 
 const CART_KEY = 'goddess-cart';
